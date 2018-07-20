@@ -2,11 +2,29 @@ body {
   background: url('../img/montaña.jpg') no-repeat center fixed;
   background-size: cover;
 }
+.logo{
+  width: 10rem;
+  margin-top: 4rem;
+}
+.slogan{
+  font-style: italic;
+  float: left;
+  color: #fff;
 
+}
+.botonnav{
+ width: 10rem;
+  margin-top: 4rem; 
+}
+.boton{
+  float: right;
 
-nav ul a,
-nav .brand-logo {
-  color: #76ff03 ;
+}
+
+  .img-contenido{
+  float: left;
+  width: 15rem;
+  margin:0.5rem;
 }
 
 p {
@@ -28,14 +46,12 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+ [class*='image'] {
+    float: none;
+    width: 100%;
   }
-  #index-banner .section {
-    top: 10%;
-  }
-}
+
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
